@@ -5,12 +5,12 @@
             <div class="row mb-2">
                 <div class="col-sm-12">
                     <br><br>
-                    <h1 align=center style="font-family:Tahoma;" class="m-0 text-dark"> <strong>LAPORAN</strong> </h1>
+                    <h1 align=center style="font-family:Tahoma;" class="m-0 text-dark"> <strong>HASIL</strong> </h1>
                 </div><!-- /.col -->
                 <div class="col-sm-12">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                        <li class="breadcrumb-item active">Data Laporan</li>
+                        <li class="breadcrumb-item active">Data Hasil</li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
