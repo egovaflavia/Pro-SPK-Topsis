@@ -32,7 +32,7 @@ if (empty($_SESSION['pengguna'])) {
                     Technique for Order of Preference by Similarity to Ideal Solution (TOPSIS)
                     <br>
                     <span class="text-bold">
-                        Penentuan Mobil Bekas Terbaik Menggunakan Metode TOPSIS
+                        Penentuan Guru Teladan Menggunakan Metode TOPSIS
                     </span>
                     <br>
                 </p>
