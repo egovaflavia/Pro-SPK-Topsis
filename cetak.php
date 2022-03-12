@@ -32,7 +32,7 @@ if (empty($_SESSION['pengguna'])) {
                     Technique for Order of Preference by Similarity to Ideal Solution (TOPSIS)
                     <br>
                     <span class="text-bold">
-                        Penentuan Mobil Bekas Terbaik Menggunakan Metode TOPSIS
+                        Penjurusan Menggunakan Metode TOPSIS
                     </span>
                     <br>
                 </p>
@@ -203,12 +203,13 @@ if (empty($_SESSION['pengguna'])) {
                         return array('hasil' => $hasil, 'nama' => $nama);
                     }, $r, $alternative_nama);
                     ?>
-                    <h4>Perangkingan</h4>
+                    <h4>Perangkingan & Penjurusan</h4>
                     <table class="table table-bordered">
                         <thead>
                             <tr>
                                 <th width="10px">No</th>
                                 <th>Nama Alternative</th>
+                                <th>Penjurusan</th>
                                 <th>Hasil</th>
                             </tr>
                         </thead>
@@ -218,6 +219,7 @@ if (empty($_SESSION['pengguna'])) {
                                 <tr>
                                     <td><?= ++$no ?></td>
                                     <td><?= $data['nama'] ?></td>
+                                    <td><?php echo ($data['hasil'] > 0.70) ? 'IPA' : 'IPS'; ?></td>
                                     <td><?= $data['hasil'] ?></td>
                                 </tr>
                             <?php endforeach; ?>

@@ -39,8 +39,8 @@
             }
             ?>
             <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-6">
+                <div class="col-md-2"></div>
+                <div class="col-8">
                     <div class="card card-dark">
                         <div class="card-header">
                             <h3 class="card-title">Tambah Data Nilai</h3>
@@ -97,86 +97,85 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label class="col-sm-3 col-form-label">Profesionalisme</label>
+                                    <label class="col-sm-3 col-form-label">Nilai Matematika</label>
                                     <div class="col-sm-9">
                                         <select name="nilai_c1" class="form-control" required>
                                             <option value="">Pilih</option>
-                                            <option value="1">Sangat Rendah</option>
-                                            <option value="2">Rendah</option>
-                                            <option value="3">Cukup</option>
-                                            <option value="4">Tinggi</option>
-                                            <option value="5">Sangat Tinggi</option>
+                                            <option value="1">≤ 50</option>
+                                            <option value="2">51 - 65</option>
+                                            <option value="3">66- 75</option>
+                                            <option value="4">76 - 80</option>
+                                            <option value="5">≥81</option>
                                         </select>
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
-                                    <label class="col-sm-3 col-form-label">Kinerja</label>
+                                    <label class="col-sm-3 col-form-label">Nilai Ilmu Peng. Alam</label>
                                     <div class="col-sm-9">
                                         <select name="nilai_c2" class="form-control" required>
                                             <option value="">Pilih</option>
-                                            <option value="1">Sangat Rendah</option>
-                                            <option value="2">Rendah</option>
-                                            <option value="3">Cukup</option>
-                                            <option value="4">Tinggi</option>
-                                            <option value="5">Sangat Tinggi</option>
+                                            <option value="1">≤ 50</option>
+                                            <option value="2">51 - 65</option>
+                                            <option value="3">66- 75</option>
+                                            <option value="4">76 - 80</option>
+                                            <option value="5">≥81</option>
                                         </select>
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
-                                    <label class="col-sm-3 col-form-label">Kepribadian</label>
+                                    <label class="col-sm-3 col-form-label">Nilai Ilmu Peng. Sosial</label>
                                     <div class="col-sm-9">
                                         <select name="nilai_c3" class="form-control" required>
                                             <option value="">Pilih</option>
-                                            <option value="1">Sangat Rendah</option>
-                                            <option value="2">Rendah</option>
-                                            <option value="3">Cukup</option>
-                                            <option value="4">Tinggi</option>
-                                            <option value="5">Sangat Tinggi</option>
+                                            <option value="1">≤ 50</option>
+                                            <option value="2">51 - 65</option>
+                                            <option value="3">66- 75</option>
+                                            <option value="4">76 - 80</option>
+                                            <option value="5">≥81</option>
                                         </select>
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
-                                    <label class="col-sm-3 col-form-label">Sosial</label>
+                                    <label class="col-sm-3 col-form-label">Nilai Bahasa Indonesia</label>
                                     <div class="col-sm-9">
                                         <select name="nilai_c4" class="form-control" required>
                                             <option value="">Pilih</option>
-                                            <option value="1">Sangat Rendah</option>
-                                            <option value="2">Rendah</option>
-                                            <option value="3">Cukup</option>
-                                            <option value="4">Tinggi</option>
-                                            <option value="5">Sangat Tinggi</option>
+                                            <option value="1">≤ 50</option>
+                                            <option value="2">51 - 65</option>
+                                            <option value="3">66- 75</option>
+                                            <option value="4">76 - 80</option>
+                                            <option value="5">≥81</option>
                                         </select>
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
-                                    <label class="col-sm-3 col-form-label">Kepatuhan</label>
+                                    <label class="col-sm-3 col-form-label">Nilai Bahasa Inggris</label>
                                     <div class="col-sm-9">
                                         <select name="nilai_c5" class="form-control" required>
                                             <option value="">Pilih</option>
-                                            <option value="1">Sangat Rendah</option>
-                                            <option value="2">Rendah</option>
-                                            <option value="3">Cukup</option>
-                                            <option value="4">Tinggi</option>
-                                            <option value="5">Sangat Tinggi</option>
+                                            <option value="1">≤ 50</option>
+                                            <option value="2">51 - 65</option>
+                                            <option value="3">66- 75</option>
+                                            <option value="4">76 - 80</option>
+                                            <option value="5">≥81</option>
                                         </select>
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
-                                    <label class="col-sm-3 col-form-label">Usia</label>
+                                    <label class="col-sm-3 col-form-label">Nilai Rata-Rata SKHU</label>
                                     <div class="col-sm-9">
                                         <select name="nilai_c6" class="form-control" required>
                                             <option value="">Pilih</option>
-                                            <option value="1">25 - 29</option>
-                                            <option value="2">30 - 34</option>
-                                            <option value="3">35 - 39</option>
-                                            <option value="4">40 - 44</option>
-                                            <option value="5">45 - 49</option>
-                                            <option value="6">>50 Tahun</option>
+                                            <option value="1">≤ 50</option>
+                                            <option value="2">51 - 65</option>
+                                            <option value="3">66- 75</option>
+                                            <option value="4">76 - 80</option>
+                                            <option value="5">≥81</option>
                                         </select>
                                     </div>
                                 </div>
@@ -192,7 +191,7 @@
                     </div>
                     <!-- /.card -->
                 </div>
-                <div class="col-md-3"></div>
+                <div class="col-md-2"></div>
             </div>
         </section>
     </div>

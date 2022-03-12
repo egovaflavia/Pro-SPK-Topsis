@@ -193,6 +193,7 @@
                                     <tr>
                                         <th width="10px">No</th>
                                         <th>Nama Alternative</th>
+                                        <th>Penjurusan</th>
                                         <th>Hasil</th>
                                     </tr>
                                 </thead>
@@ -202,6 +203,7 @@
                                         <tr>
                                             <td><?= ++$no ?></td>
                                             <td><?= $data['nama'] ?></td>
+                                            <td><?php echo ($data['hasil'] > 0.70) ? 'IPA' : 'IPS'; ?></td>
                                             <td><?= $data['hasil'] ?></td>
                                         </tr>
                                     <?php endforeach; ?>
