@@ -203,7 +203,7 @@ if (empty($_SESSION['pengguna'])) {
                         return array('hasil' => $hasil, 'nama' => $nama);
                     }, $r, $alternative_nama);
                     ?>
-                    <h4>Perangkingan & Penjurusan</h4>
+                    <h4>Hasil & Penjurusan</h4>
                     <table class="table table-bordered">
                         <thead>
                             <tr>

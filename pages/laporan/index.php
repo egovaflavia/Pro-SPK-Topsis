@@ -187,7 +187,7 @@
                                 return array('hasil' => $hasil, 'nama' => $nama);
                             }, $r, $alternative_nama);
                             ?>
-                            <h4>Perangkingan</h4>
+                            <h4>Hasil</h4>
                             <table class="table table-bordered">
                                 <thead>
                                     <tr>

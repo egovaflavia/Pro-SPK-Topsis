@@ -333,7 +333,9 @@
                     4
                   );
 
-                  $r[] = $v = round($ddNeg1 / ($ddNeg1 + $ddPlus1), 4);
+                  $r[] = [
+                    'nama' => $dataRating->alternative_nama,
+                    'nilai' => $v = round($ddNeg1 / ($ddNeg1 + $ddPlus1), 4)];
                 ?>
                   <tr>
                     <td>V <?= ++$noo ?> = <?= $v ?></td>
@@ -349,14 +351,16 @@
               <thead>
                 <tr>
                   <th width="10px">No</th>
-                  <th>Rangking</th>
+                  <th>Nama</th>
+                  <th>Nilai</th>
                 </tr>
               </thead>
               <tbody>
                 <?php foreach ($r as $no => $data) : ?>
                   <tr>
                     <td><?= ++$no ?></td>
-                    <td><?= $data ?></td>
+                    <td><?= $data['nama'] ?></td>
+                    <td><?= $data['nilai'] ?></td>
                   </tr>
                 <?php endforeach; ?>
               </tbody>

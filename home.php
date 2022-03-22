@@ -25,7 +25,7 @@
         <img src="assets/images/sdn.png" alt="">
       </center>
       <br>
-      <p>TOPSIS (Technique For Others Reference by Similarity to Ideal Solution) adalah salah satu metode pengambilan keputusan multikriteria yang pertama kali diperkenalkan oleh Yoon dan Hwang (1981). TOPSIS menggunakan prinsip bahwa alternatif yang terpilih harus mempunyai jarak terdekat dari solusi ideal positif dan terjauh dari solusi ideal negatif dari sudut pandang geometris dengan menggunakan jarak Euclidean untuk menentukan kedekatan relatif dari suatu alternatif dengan solusi optimal.</p>
+      <p>Sistem Pendukung Keputusan Penjurusan SMA NEGERI 4 Pariaman</p>
     </div>
   </div>
   <!-- /.content -->
