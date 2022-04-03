@@ -53,6 +53,12 @@ class Db extends Conn
         $query = $this->get("SELECT * FROM tb_nilai a LEFT JOIN tb_alternative b ON a.alternative_id = b.alternative_id ");
         return $query;
     }
+
+    public function getRatingByTahun($tahun)
+    {
+        $query = $this->get("SELECT * FROM tb_nilai a LEFT JOIN tb_alternative b ON a.alternative_id = b.alternative_id WHERE a.tahun_ajaran LIKE '%$tahun%'");
+        return $query;
+    }
     // =========================================================================================
     // Pengguna Pengguna Pengguna Pengguna Pengguna Pengguna Pengguna Pengguna Pengguna Pengguna 
     // =========================================================================================

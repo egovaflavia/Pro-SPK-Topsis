@@ -37,11 +37,12 @@ if (empty($_SESSION['pengguna'])) {
                     <br>
                 </p>
             </div>
-            <div class="row mb-5 mt-5">
+            <div class="row mb-3 mt-5">
                 <div class="col-md-12  justify-content-center">
                     <center>
                         <h2 class="text-center">Laporan Hasil Perhitungan</h2>
                     </center>
+                    <p>Tahun Ajaran <?= $_GET['tahun'] ?></p>
                 </div>
             </div>
             <div class="col-12">
