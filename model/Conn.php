@@ -1,6 +1,6 @@
 <?php
 // error_reporting(0);
-$conn = mysqli_connect('localhost', 'root', '', 'db_spk_topsis_guru_teladan');
+$conn = mysqli_connect('localhost', 'root', '', 'db_topsis');
 if ($conn->connect_errno) {
     echo "Filed to connect database : " . $conn->connect_errno;
     exit;
